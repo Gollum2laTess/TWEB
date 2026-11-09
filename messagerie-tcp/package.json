@@ -1,0 +1,15 @@
+{
+  "name": "messagerie-tcp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "server": "node src/server/server.js",
+    "client": "node src/client/client.js",
+    "test": "node --test test/protocol.test.js"
+  },
+  "dependencies": {
+    "debug": "4.4.3",
+    "kleur": "4.1.5",
+    "yargs": "17.7.2"
+  }
+}
