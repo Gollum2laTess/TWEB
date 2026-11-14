@@ -1,0 +1,17 @@
+{
+  "name": "messagerie-tcp",
+  "version": "3.0.0",
+  "description": "Messagerie TCP - Partie 3",
+  "main": "src/server/server.js",
+  "scripts": {
+    "server": "node src/server/server.js",
+    "client": "node src/client/client.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "debug": "^4.3.4",
+    "kleur": "^4.1.5",
+    "sqlite3": "^5.1.7",
+    "yargs": "^17.7.2"
+  }
+}
